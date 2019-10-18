@@ -1,6 +1,5 @@
 package by.exadel.application.controller;
 
-
 import by.exadel.application.model.User;
 import by.exadel.application.service.SecurityService;
 import by.exadel.application.service.UserService;

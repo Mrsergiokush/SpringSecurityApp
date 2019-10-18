@@ -1,4 +1,4 @@
-/*-- Table: users
+-- Table: users
 CREATE TABLE users
 (
     id       INT          NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -37,10 +37,10 @@ VALUES (1, 'sergio', 'rdhfhdfshdsjdj213');
 insert into roles
 values (1, 'ROLE_USER');
 insert into roles
-values (2, 'ROLE_ADMIN');*/
+values (2, 'ROLE_ADMIN');
 
-/*INSERT INTO users
-VALUES (3, 'LionelMessi', '$2a$11$WFnXctkloeKw7HmfizsrEei.yMwgyI1FXHxVDfGKDBvrxLaa9yYwK');*/
+INSERT INTO users
+VALUES (3, 'LionelMessi', '$2a$11$WFnXctkloeKw7HmfizsrEei.yMwgyI1FXHxVDfGKDBvrxLaa9yYwK');
 
 INSERT INTO user_roles
 values (3, 2);
