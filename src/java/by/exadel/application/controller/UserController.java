@@ -74,4 +74,8 @@ public class UserController {
         return "admin";
     }
 
+    public void doNothing() {
+    }
 }
+
+
